@@ -8,7 +8,7 @@ const app = express();
 
 // Apply CORS middleware with specific origin
 app.use(cors({
-  origin: 'http://localhost:5173', // replace with your React app's origin
+  origin: 'https://book-store-blond-six.vercel.app', // replace with your React app's origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'] // allowed headers
 }));
